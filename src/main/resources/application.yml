@@ -1,0 +1,14 @@
+
+server:
+  ssl:
+    key-store: file:C:/Users/Milos/Documents/jks/keystore.jks
+    key-store-password: milos777
+    key-alias: localhost
+    key-password: milos
+    enabled: true
+  port: 8443
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
